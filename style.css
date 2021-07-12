@@ -4,6 +4,9 @@ html {
 
 #title {
     text-align: center;
+    width: auto;
+    max-width: 1366px;
+    justify-content: center;
 }
 
 #navigation {
@@ -23,3 +26,4 @@ html {
 #home, #choirs, #support-us, #links, #alumni {
     padding: 10px;
 }
+
