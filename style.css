@@ -5,19 +5,24 @@ html {
 #title {
     text-align: center;
     width: auto;
-    max-width: 1366px;
+    min-width: 300px;
+    justify-content: center;
+    position: relative;
+}
+
+#header {
     justify-content: center;
 }
 
 #navigation {
     display: block;
+    position: relative;
     border-top: 2px solid grey;
     border-bottom: 2px solid grey;
     justify-content: center;
     align-items: center;
     width: 100%;
     text-align: center;
-    max-width: 1366px;
     min-width: 300px;
     margin: 0 auto;
     text-align: center;
