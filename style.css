@@ -36,10 +36,12 @@ html {
 }
 
 .body-article {
+    display: block ;
     max-width: 400px;
-    margin-left: 10%;
+    justify-content: center;
 }
 
-body {
+.content-container {
     max-width: 1366px;
 }
+
