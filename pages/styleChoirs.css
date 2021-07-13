@@ -41,14 +41,26 @@ a:hover {
     border-bottom: 2px solid purple;
 }
 
-.body-article {
-    display: block ;
-    max-width: 400px;
-    justify-content: center;
+#beginning-chorus {
+    position: relative;
+    display: table-row;
+    margin: 0 auto;
 }
 
-.content-container {
-    max-width: 1366px;
+.choir-photo img {
+    width: auto;
+    
+}
+
+.choir-description {
+    max-width: 700px;
+    min-width: 300px;
+}
+
+#content {
+    justify-content: center;
     position: relative;
+    max-width: 1366px;
+    margin: 0 auto;
 }
 
