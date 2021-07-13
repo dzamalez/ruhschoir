@@ -35,7 +35,11 @@ html {
     padding: 20px;
 }
 
-.body {
+.body-article {
     max-width: 400px;
     margin-left: 10%;
+}
+
+body {
+    max-width: 1366px;
 }
