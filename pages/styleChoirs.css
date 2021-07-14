@@ -67,7 +67,7 @@ a:hover {
     padding: 15px 0;
 }
 
-#content {
+.content-container {
     justify-content: center;
     position: relative;
     max-width: 1366px;
@@ -99,8 +99,4 @@ a:hover {
     color: blueviolet;
     padding: 0;
     margin: 0;
-}
-
-.footer p {
-    height: 50%;
 }
