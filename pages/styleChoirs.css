@@ -66,7 +66,8 @@ a:hover {
     max-width: 700px;
     min-width: 300px;
     margin: 5% 10px;
-    padding: 15px 0;
+    padding-top: 10;
+    padding-bottom: 0;
     max-height: 170px;
     overflow: scroll;
 }
