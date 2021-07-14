@@ -43,13 +43,20 @@ a:hover {
 
 .body-article {
     display: block ;
-    max-width: 400px;
+    max-width: 500px;
     justify-content: center;
+    line-height: normal;
+    margin: 0 5%;
 }
 
 .content-container {
     max-width: 1366px;
     position: relative;
     margin: 0 auto;
+}
+
+#article-title {
+    width: auto;
+    margin: 0 5%;
 }
 
