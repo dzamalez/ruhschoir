@@ -63,7 +63,8 @@ a:hover {
 .choir-description {
     max-width: 700px;
     min-width: 300px;
-    margin: auto 10px;
+    margin: 5% 10px;
+    padding: 15px 0;
 }
 
 #content {
@@ -73,3 +74,33 @@ a:hover {
     margin: 0 auto;
 }
 
+#advanced-women {
+    display: flex;
+    flex-direction: row;
+    margin: 0 5%;
+}
+
+#choraliers {
+    display: flex;
+    flex-direction: row;
+    margin: 0 5%;
+    padding-bottom: 0;
+}
+
+#concert-choir {
+    margin: 0 5%;
+    margin-bottom: 70px;
+    padding-top: 0;
+}
+
+.footer {
+    width: 100%;
+    background-color: blueviolet;
+    color: blueviolet;
+    padding: 0;
+    margin: 0;
+}
+
+.footer p {
+    height: 50%;
+}
