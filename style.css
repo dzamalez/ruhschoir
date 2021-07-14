@@ -37,6 +37,10 @@ html {
     text-decoration: none;
 }
 
+#home {
+    border-bottom: 2px solid purple;
+}
+
 a:hover {
     border-bottom: 2px solid purple;
 }
