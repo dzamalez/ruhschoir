@@ -1,20 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Montserrat:wght@300;400&display=swap');
+
 html {
-    font-size: 16px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #title {
-    text-align: center;
-    width: auto;
-    min-width: 300px;
-    justify-content: center;
-    position: relative;
-    font-weight: 200;
+  width: 100%;
+  margin: 0 50px;
 }
 
-#header {
-    justify-content: center;
+#title h1 {
+  font-weight: 300;
+  width: 200px;
+  margin-left: 40px;
 }
+
+
+#main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0;
+  margin: 15px 0;
+}
+
+#main h1{
+  font-size: 20px;
+  width: 300px;
+  float: left;
+  padding: 0;
+  margin: 0 100px 0 0;
+  text-align: left;
+}
+
+ul {
+  position:relative;
+  margin:0;
+  padding:0;
+}
+#menu {
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  margin: 0 auto;
+  font-weight:bold;
+  cursor:pointer;
+  background: white;
+  border-radius:2px;
+  -moz-border-radius:2px; 
+  -webkit-border-radius:2px;
+  z-index: 3;
+}
+#menu ul {
+  display:table;
+  line-height:10px;
+}
+#menu ul li {
+  position:relative;
+  display:inline;
+}
+#menu ul li a {
+  float:left;
+  position:relative;
+  padding:20px;
+  color: black;
+  text-decoration:none;
+  font-weight: 300;
+}
+#menu ul li a:hover {
+  opacity: .75;
+  background: whitesmoke;
+}
+#menu ul ul {
+  position:absolute;
+  width:210px;
+  top:50px;
+  left:-370px;       /* CHROME, SAFARI */
+  -webkit-transform:translateX(232px);     /* CHROME SAFARI */
+  -moz-transform:translateX(135px);       /* FIREFOX */
+  
+  /* BACKGROUND COLOR AND BORDER. */
+  background: white;
+  border-radius:2px;
+  -moz-border-radius:2px; 
+  -webkit-border-radius:2px;
+
+  /* ADD BORDER SHADOW. */
+  box-shadow:0 0 10px #444;
+  -moz-box-shadow:0 0 10px #444;
+  -webkit-box-shadow:0 0 10px #444;
+}
+
+/* SUB MENU LIST */
+#menu ul ul li {
+  text-align:left; 
+  margin:0;
+}
+
+/* SET HEIGHT AS '0', SO THE SUBMENUS REMAINS HIDDEN IN THE BEGINNING. */
+
+#menu ul ul li a {
+  height:0; 
+  line-height:0; 
+  width:200px; 
+  color:black;
+  padding:0 20px;
+  -moz-opacity: 0;
+  opacity:0;
+  filter: alpha(opacity=0);
+}
+
+#menu ul ul li a:hover {
+  opacity: .75;
+  background: whitesmoke;
+}
+
+#menu ul ul ul {
+  visibility:hidden;
+  position:absolute;
+  top:175px;
+}
+
+#categories a {
+transition:all 0.3s linear; 
+-o-transition:all 0.3s linear;
+-moz-transition:all 0.3s linear; 
+-webkit-transition:all 0.3s linear;
+}
+
+#categories:hover ul li a {
+  height:40px;
+  line-height:40px;
+  -moz-opacity: 1;
+  opacity:1;
+  filter: alpha(opacity=100);
+}
+
+#menu #categories #da > ul {
+  transition:opacity 0.2s 0.01s ease-in-out, left 0.2s 0.1s ease-out, visibility 0.1s 0.1s linear;
+  -o-transition:opacity 0.2s 0.01s ease-in-out, left 0.2s 0.1s ease-out, visibility 0.1s 0.1s linear;
+  -moz-transition:opacity 0.2s 0.01s ease-in-out, left 0.2s 0.1s ease-out, visibility 0.1s 0.1s linear;
+-webkit-transition:opacity 0.2s 0.01s ease-in-out, left 0.2s 0.1s ease-out, visibility 0.1s 0.1s linear;
+}
+#menu #categories #da:hover > ul {
+  visibility:visible;
+  position:absolute;
+  left:-232px;                             /* CHROME, SAFARI */
+  -moz-transform:translateX(232px);       /* FIREFOX */
+}
+
+#categorie2 a {
+  transition:all 0.3s linear; 
+  -o-transition:all 0.3s linear;
+  -moz-transition:all 0.3s linear; 
+  -webkit-transition:all 0.3s linear;
+  }
+  
+  #categorie2:hover ul li a {
+    height:40px;
+    line-height:40px;
+    -moz-opacity: 1;
+    opacity:1;
+    filter: alpha(opacity=100);
+  }
+  
+  #menu #categorie2 #da > ul {
+    transition:opacity 0.2s 0.01s ease-in-out, left 0.2s 0.1s ease-out, visibility 0.1s 0.1s linear;
+    -o-transition:opacity 0.2s 0.01s ease-in-out, left 0.2s 0.1s ease-out, visibility 0.1s 0.1s linear;
+    -moz-transition:opacity 0.2s 0.01s ease-in-out, left 0.2s 0.1s ease-out, visibility 0.1s 0.1s linear;
+  -webkit-transition:opacity 0.2s 0.01s ease-in-out, left 0.2s 0.1s ease-out, visibility 0.1s 0.1s linear;
+  }
+  #menu #categorie2 #da:hover > ul {
+    visibility:visible;
+    position:absolute;
+    left:-232px;                             /* CHROME, SAFARI */
+    -moz-transform:translateX(232px);       /* FIREFOX */
+  }
 
 #navigation {
     display: block;
@@ -30,6 +193,31 @@ html {
     text-align: center;
     padding: 10px 0;
 }
+
+#head-image {
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  background-image: url(./images/headImage.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 350px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  background-size: 100%;
+  background-position: 50% 30%;
+  font-weight: 300;
+}
+
+#head-image h1 {
+  font-weight: 300;
+}
+
+#dates-list {
+  line-height: 20px;
+}
+/* this is for the side menu for phone
 
 .sidenav span {
     float: left;
@@ -78,6 +266,7 @@ html {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+  */
 
 #home, #choirs, #support-us, #links, #alumni {
     padding:  3px 20px;
@@ -85,30 +274,30 @@ html {
     text-decoration: none;
 }
 
-#home {
-    border-bottom: 2px solid purple;
-}
-
 a:hover {
-    border-bottom: 2px solid purple;
+    background-color: rgba(170, 4, 170, 0.563);
 }
 
-.body-article {
-    display: block ;
-    max-width: 500px;
-    justify-content: center;
-    line-height: normal;
-    margin: 0 5%;
+#body-article p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 30px;
 }
 
 .content-container {
     max-width: 1366px;
     position: relative;
     margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 #article-title {
     width: auto;
-    margin: 0 5%;
+}
+
+iframe {
+  margin: 0 auto;
 }
 
