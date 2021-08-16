@@ -1,21 +1,47 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Madrigal Dinner</title>
-        <link rel="stylesheet" href="./styleMadrigal.css">
-    </head>
-</html>
+<head>
+    <title>Madrigal</title>
+    <link href="/pages/styleMadrigal.css" rel="stylesheet">
+</head>
 <body>
-    <div id="header">
+    <!-- this is also to be used for a smaller screen, this is the side nav 
+    <div id="mySidenav" class="sidenav">
+        <a href="/scripts/script.js" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+    -->
+    <div id="main">
         <div id="title">
+            <!-- this is the button to open the side menu
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span> 
+            -->
             <h1>Rincon University High School Choral Department</h1>
         </div>
-        <div id="navigation">
-            <a id="home" href="/index.html">Home</a>
-            <a id="choirs" href="./choirs.html">Choirs</a>
-            <a id="support-us" href="supportUs.html">Support Us</a>
-            <a id="links" href="helpfulLinks.html">Helpful Links/FAQs</a>
-            <a id="alumni" href="alumni.html">Alumni</a>
+        <div id="menu">
+            <ul>
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="/pages/choirs.html">CHOIRS</a></li>
+                <li id="categories"><a href="#">LINKS</a>
+                    <ul>
+                        <li><a href="/pages/links/faqs.html">FAQs</a></li>
+                        <li><a href="/pages/links/calendar.html">CALENDAR</a></li>
+                        <li><a href="/pages/links/announcements.html">ANOUNCEMENTS</a></li>
+                        <li><a href="/pages/links/musicRecordnings.html">MUSIC RECORDINGS</a></li>
+                        <li><a href="/pages/links/contact.html">CONTACT</a></li>
+                    </ul>
+                </li>
+                <li id="categorie2"><a href="#">SUPPORT US</a>
+                    <ul>
+                        <li><a href="/pages/supportUs/volunteering.html">VOLUNTEERING</a></li>
+                        <li><a href="/pages/supportUs/fundraising.html">FUNDRAISING</a></li>
+                        <li><a href="#">TAX CREDIT</a></li>
+                        <li><a href="/pages/supportUs/alumni.html">ALUMNI</a></li>
+                    </ul>
+                </li>
+                <li><a href="/pages/mardrigal.html">MADRIGAL</a></li>
+            </ul>
         </div>
     </div>
-</body>
