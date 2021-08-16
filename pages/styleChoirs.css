@@ -170,7 +170,7 @@ transition:all 0.3s linear;
     transition:opacity 0.2s 0.01s ease-in-out, left 0.2s 0.1s ease-out, visibility 0.1s 0.1s linear;
     -o-transition:opacity 0.2s 0.01s ease-in-out, left 0.2s 0.1s ease-out, visibility 0.1s 0.1s linear;
     -moz-transition:opacity 0.2s 0.01s ease-in-out, left 0.2s 0.1s ease-out, visibility 0.1s 0.1s linear;
-  -webkit-transition:opacity 0.2s 0.01s ease-in-out, left 0.2s 0.1s ease-out, visibility 0.1s 0.1s linear;
+    -webkit-transition:opacity 0.2s 0.01s ease-in-out, left 0.2s 0.1s ease-out, visibility 0.1s 0.1s linear;
   }
   #menu #categorie2 #da:hover > ul {
     visibility:visible;
@@ -278,14 +278,6 @@ transition:all 0.3s linear;
     padding:  3px 20px;
     color: black;
     text-decoration: none;
-}
-
-#choirs {
-    border-bottom: 2px solid purple;
-}
-
-a:hover {
-    border-bottom: 2px solid purple;
 }
 
 #beginning-chorus {
