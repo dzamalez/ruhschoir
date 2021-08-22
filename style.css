@@ -319,6 +319,7 @@ transition:all 0.3s linear;
 #calendar-title {
 margin-top: 50px;
 font-size: 30px;
+font-weight: 300;
 }
 
 iframe {
