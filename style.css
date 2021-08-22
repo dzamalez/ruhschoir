@@ -316,7 +316,12 @@ transition:all 0.3s linear;
   line-height: 20px;
 }
 
+#calendar-title {
+margin-top: 50px;
+font-size: 30px;
+}
+
 iframe {
-  margin: 50px auto;
+  margin: 10px auto;
 }
 
