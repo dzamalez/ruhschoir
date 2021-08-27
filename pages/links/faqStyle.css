@@ -284,9 +284,14 @@ transition:all 0.3s linear;
   font-size: 25px;
 }
 
+h3 {
+  font-size: 25px;
+}
+
 p {
   font-weight: 300;
   line-height: 35px;
+  font-size: 13px;
 } 
 
 #helpful-links {
@@ -300,7 +305,7 @@ p {
 #helpful-links a, p {
   text-align: left;
   color: grey;
-  font-size: 20px;
+  font-size: 17px;
   padding: 5px 0;
 }
 
@@ -309,6 +314,10 @@ p {
   margin: 0;
   padding: 5px 0;
   color: black;
+}
+
+#helpful-links h3 {
+  font-size: 30px;
 }
 
 #handbook {
@@ -326,7 +335,7 @@ p {
 }
 
 #faqs h3 {
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
   margin: 10px 0;
 }
