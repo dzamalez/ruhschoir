@@ -268,3 +268,40 @@ transition:all 0.3s linear;
     .sidenav a {font-size: 18px;}
   }
   */
+
+#content-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  line-height: 30px;
+}
+
+li {
+  color: rgb(49, 49, 49);
+}
+
+p {
+  color: rgb(49, 49, 49);
+}
+
+#content-container h3 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 300;
+  margin-bottom: 60px;
+}
+
+#current-fundraiser h4 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 40px;
+} 
+
+#current-fundraiser a {
+  color: grey;
+}
