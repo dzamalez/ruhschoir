@@ -292,11 +292,12 @@ p {
 #content-container h3 {
   text-align: center;
   font-size: 28px;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 60px;
 }
 
 #current-fundraiser h4 {
+  font-weight: 300;
   font-size: 20px;
   text-align: center;
   margin-bottom: 30px;
