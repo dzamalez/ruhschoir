@@ -18,6 +18,6 @@ let currentDate = `${currentMonth} ${currentDay}`;
 console.log(`Month: ${currentMonth}`)
 console.log(`Day: ${currentDay}`)
 
-if (currentDay <= 8 && currentMonth <= 8 ) {
+if ((currentDay <= 8 && currentMonth <= 8) || (currentDay > 8 && currentMonth <= 8)) {
   alert("Hey there! The is a fundrasier currently going on, please visit the fundraisers under the support us tab!")
 } 
