@@ -280,7 +280,7 @@ transition:all 0.3s linear;
   margin: 5px;
   padding: 0;
   max-width: 1000px;
-  text-align: left;
+  text-align: center;
 }
 
 #content-container a {
