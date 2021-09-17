@@ -16,7 +16,6 @@ html {
   margin-left: 40px;
 }
 
-
 #main {
   display: flex;
   flex-direction: row;
@@ -268,3 +267,34 @@ transition:all 0.3s linear;
     .sidenav a {font-size: 18px;}
   }
   */
+
+#content-container {
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+}
+
+#content-container p {
+  margin: 5px;
+  padding: 0;
+  max-width: 1000px;
+  text-align: left;
+}
+
+#content-container a {
+  color: black;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+#googleMaps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
