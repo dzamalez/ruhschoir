@@ -132,6 +132,11 @@ html {
   display: none;
 }
 
+.mySlides img {
+  height: 60%;
+  max-height: 70%;
+}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
