@@ -208,11 +208,27 @@ ul {
   max-width: 50%;
 }
 
+.description, h3 {
+  padding: 0px 20px 5px 30px;
+  margin: 0 auto;
+}
+
+h3 {
+  padding: 20px;
+}
+
 iframe {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  padding: 50px 10px 10px 10px;
 }
 
 #content-container {
   max-width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.recording {
+  text-align: center;
 }
