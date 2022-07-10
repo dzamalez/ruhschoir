@@ -203,3 +203,16 @@ ul {
   color: black;
   text-decoration: none;
 }
+
+.description {
+  max-width: 50%;
+}
+
+iframe {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#content-container {
+  max-width: 1366px;
+}
