@@ -311,6 +311,15 @@ html {
   margin-bottom: 30px;
 }
 
+#dates-list li {
+  padding: 10px;
+}
+
+#dates-list ul {
+  text-align: center;
+  list-style-type: none;
+}
+
 #article-footnote {
   max-width: 700px;
   text-align: center;
